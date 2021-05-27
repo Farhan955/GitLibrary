@@ -17,5 +17,15 @@ public class Validation {
         }
 
     }
+
+    public static boolean isValidEmail2(String email) {
+
+        if (email.length() > 0) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 }
 
